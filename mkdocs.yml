@@ -1,0 +1,13 @@
+site_name: AplexOS
+site_author: zengjf
+pages:
+- 主页 : 'index.md'
+- 成员 :
+    - 刘涛 : 'Partners/liutao/liutao.md'
+    - 陈颖奇 : 'Partners/chenyq/chenyq.md'
+    - 陈富林 : 'Partners/chenfl/chenfl.md'
+    - 程梦真 : 'Partners/chengmz/chengmz.md'
+    - 曾剑锋 : 'Partners/zengjf/zengjf.md'
+theme: readthedocs
+copyright: 'Copyright © 2016 AplexOS'
+
