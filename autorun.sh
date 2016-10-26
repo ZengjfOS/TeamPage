@@ -10,6 +10,11 @@ getPid()
     pid=`ps aux | grep /usr/local/bin/mkdocs | head -n1 | awk '{print $2}'`
 }
 
+if [ $# -ne 1 ];then
+    echo "autorun.sh [server][build][pushweb][pushres]"
+    exit -1
+fi
+
 if [ $1 == "server" ];then
     getPid
     if [ ! -z $pid ];then
@@ -25,19 +30,30 @@ fi
 
 if [ $1 == "build" ];then
     mkdocs build --strict 
-    # ./tools/hidden.py site/index.html
-    # ./tools/hidden.py site/search.html
-    # find * -name index.html | xargs tools/hidden.py
     for partner in `find * -name *.html`
     do 
         echo $partner
         ./tools/hidden.py $partner
     done 
+
+    exit 0
 fi
 
-if [ $1 == "push" ];then
+if [ $1 == "pushweb" ];then
     cd site
     git add .
     git commit -m "update"
     git push git@github.com:AplexOS/AplexOS.github.io.git master
+
+    exit 0
 fi
+
+if [ $1 == "pushres" ];then
+    git add .
+    git commit -m "update"
+    git push git@github.com:AplexOS/TeamPage.git master
+
+    exit 0
+fi
+
+echo "autorun.sh [server][build][pushweb][pushres]"
