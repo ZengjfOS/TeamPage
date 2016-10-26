@@ -9,13 +9,13 @@
 
 每个md文件都要mkdocs.yml文件中声明了才能在别的md文件中引用，不然会出现如下错误：
 
-    ```
+```
     Error: The page "index.md" contained a hyperlink to "*.md" which is not listed in the "pages" configuration.
-    ```
+```
 
 如果在mkdocs.yml中的pages中声明，又会出现我们不想要的导航条目，因为并不是所有的md文件都要出现在导航栏中，mkdocs.yuml内容如下：
 
-    ```
+```
     site_favicon: os.ico
     site_name: AplexOS
     site_author: zengjf
@@ -35,15 +35,15 @@
         - hidden : 'Partners/zengsf/zengsf.md' 
     theme: readthedocs
     copyright: 'Copyright © 2016 AplexOS'
-    ```
+```
 
 如下是对应的UI导航栏，注意图片中的hidden导航条目是我们不希望看到的：
 
-    ![hidden](images/error.png)
+![hidden](images/error.png)
 
 于是采用Python3写了一个html自动化处理文档[hidden.py](tools/hidden.py)，处理过程在[autorun.sh](autorun.sh)脚本中:
 
-    ```
+```
     if [ $1 == "build" ];then
         mkdocs build --strict
         for partner in `find * -name *.html`    # 查找所有的html文件
@@ -54,4 +54,4 @@
 
         exit 0
     fi
-    ```
+```
