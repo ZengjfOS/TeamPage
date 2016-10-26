@@ -42,6 +42,7 @@ fi
 if [ $1 == "pushweb" ];then
     cd site
     git add .
+    git rm $(git ls-files --deleted)
     git commit -m "update"
     git push git@github.com:AplexOS/AplexOS.github.io.git master
 
@@ -50,6 +51,7 @@ fi
 
 if [ $1 == "pushres" ];then
     git add .
+    git rm $(git ls-files --deleted)
     git commit -m "update"
     git push git@github.com:AplexOS/TeamPage.git master
 
