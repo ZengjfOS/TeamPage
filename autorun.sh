@@ -24,5 +24,20 @@ if [ $1 == "server" ];then
 fi
 
 if [ $1 == "build" ];then
-    mkdocs build
+    mkdocs build --strict 
+    # ./tools/hidden.py site/index.html
+    # ./tools/hidden.py site/search.html
+    # find * -name index.html | xargs tools/hidden.py
+    for partner in `find * -name *.html`
+    do 
+        echo $partner
+        ./tools/hidden.py $partner
+    done 
+fi
+
+if [ $1 == "push" ];then
+    cd site
+    git add .
+    git commit -m "update"
+    git push git@github.com:AplexOS/AplexOS.github.io.git master
 fi
