@@ -1,15 +1,17 @@
-cover_index: /images/zengjf.png
-title: zengjf
-subtitle: zengjf
-date: 2016/6/9 10:46:25
----
+# 联系方式
 
-|        |        |
-|:-------:|:-------|
-| Name:  | 曾剑锋(zoro zeng) |
-| Blog:  | [http://www.cnblogs.com/zengjfgit/](http://www.cnblogs.com/zengjfgit/)   |
-| Github: | [http://github.com/AplexOS](http://github.com/AplexOS) |
-| 种菜的二逼: | [https://github.com/AplexOS/LoveLife](https://github.com/AplexOS/LoveLife) |
-| E-mail: | zengjf42@163.com |
+  * E-mail: zengjf42@163.com 
+  * E-mail: aplexos@163.com 
 
+# 个人信息
+
+  * 曾剑锋(zoro zeng)
+  * 技术博客: [http://www.cnblogs.com/zengjfgit/](http://www.cnblogs.com/zengjfgit/) 
+  * Github:  [http://github.com/AplexOS](http://github.com/AplexOS)
+
+# 个人技能
+都么到精通。  :)
+
+# 致谢
+感谢您花时间访问，期待能与您共事。
 
