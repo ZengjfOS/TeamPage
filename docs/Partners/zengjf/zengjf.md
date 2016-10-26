@@ -5,13 +5,15 @@
 
 # 个人信息
 
-  * 曾剑锋(zoro zeng)
+  * 曾剑锋(zengjf)
   * 技术博客: [http://www.cnblogs.com/zengjfgit/](http://www.cnblogs.com/zengjfgit/) 
   * Github:  [http://github.com/AplexOS](http://github.com/AplexOS)
 
 # 个人技能
-都么到精通。  :)
+
+都没到精通。  :)
 
 # 致谢
-感谢您花时间访问，期待能与您共事。
+
+感谢您访问，期待能与您共事。
 

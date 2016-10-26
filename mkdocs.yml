@@ -1,8 +1,10 @@
+site_favicon: os.ico
 site_name: AplexOS
 site_author: zengjf
 pages:
 - 主页 : 'index.md'
-- 成员 :
+- 成员(随机排序) :
+    - 覃左栋 : 'Partners/qinzd/qinzd.md'
     - 刘涛 : 'Partners/liutao/liutao.md'
     - 陈颖奇 : 'Partners/chenyq/chenyq.md'
     - 陈富林 : 'Partners/chenfl/chenfl.md'
