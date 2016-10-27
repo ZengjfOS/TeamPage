@@ -51,7 +51,7 @@
     copyright: 'Copyright © 2016 AplexOS'
 ```
 
-如下是对应的UI导航栏，注意图片中的hidden导航条目是我们不希望看到的：
+如下是对应的导航栏，注意图片中的hidden相关的导航条目是我们不希望看到的：
 
 ![nohidden](images/navnohidden.png)
 
@@ -70,6 +70,6 @@
     fi
 ```
 
-如下图片中的导航是我们希望看到的：
+如下图片中的导航栏是我们希望看到的，也是经过脚本处理后的最终效果：
 
 ![hidden](images/navhidden.png)
