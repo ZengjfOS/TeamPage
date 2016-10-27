@@ -2,7 +2,6 @@
 
   * 主要目的是为了使Team成员有一个信息入口，这样每个人可以通过一个统一的域名访问到其他人的博客、Github账户等等相关信息；
   * 网站以Markdown文档开发，经MKDocs处理为静态页面，通过github.io发布，域名为aplexos.com；
-  * 每个成员只需要在docs/Partners/目录添加其自己的子目录，并以Markdown文档写自己的信息就可以了；
   * 除了作为一个团队成员信息入口以外，还可以提供一些其他的功能，这些可以后续考虑加入；
 
 # 使用方法
@@ -19,7 +18,7 @@
        4. pushpro: push the local mkdocs project to github repository.
 ```
 
-  * 目前由于[hidden.py](tools/hidden.py)只能隐藏[mkdocs.yml](mkdocs.yml)文件中pages字段下的hidden导航条目，所以需要隐藏的md文件，写法要符合这种规范，如果又不清除的地方，请参考项目的[mkdocs.yml](mkdocs.yml)写法:
+  * 目前由于[hidden.py](tools/hidden.py)只能隐藏[mkdocs.yml](mkdocs.yml)文件中pages字段下的hidden导航条目，所以需要隐藏的md文件，写法要符合这种规范，如果又不清楚的地方，请参考项目的[mkdocs.yml](mkdocs.yml)写法:
 
 ```
     [省略内容...]
@@ -31,13 +30,18 @@
     [省略内容...]
 ```
 
+  * 添加成员，需要完成如下内容：
+    * 在docs/Partners/目录添加其自己的子目录，并以Markdown文档写自己的信息；
+    * 在docs/index.md中添加引用；
+    * 在mkdocs.yml声明md文件，如果不需要在导航栏中显示，请添加在hidden字段内。
+
 # 处理过程中遇到的最大问题
 
 每个md文件都要mkdocs.yml文件中声明了才能在别的md文件中引用，不然会出现如下错误：
 
->> Error: The page "index.md" contained a hyperlink to "*.md" which is not listed in the "pages" configuration.
+> Error: The page "index.md" contained a hyperlink to "*.md" which is not listed in the "pages" configuration.
 
-如果在mkdocs.yml中的pages中声明，又会出现我们不想要的导航条目，因为并不是所有的md文件都要出现在导航栏中，mkdocs.yuml内容如下：
+如果在mkdocs.yml中的pages中声明，又会出现我们不想要的导航条目，因为并不是所有的md文件都要出现在导航栏中，以下是一份早期的mkdocs.yuml内容如下：
 
 ```
     site_favicon: os.ico

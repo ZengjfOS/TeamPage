@@ -3,9 +3,6 @@ site_name: AplexOS
 site_author: zengjf
 pages:
 - 主页 : 'index.md'
-- 推荐资源 :
-    - 文章 : 'resource/articles.md'
-    - 书籍 : 'resource/books.md'
 - Partners（随机排序）:
     - 覃左栋 : 'Partners/qinzd/qinzd.md'
     - 刘涛 : 'Partners/liutao/liutao.md'
@@ -13,6 +10,9 @@ pages:
     - 陈富林 : 'Partners/chenfl/chenfl.md'
     - 程梦真 : 'Partners/chengmz/chengmz.md'
     - 曾剑锋 : 'Partners/zengjf/zengjf.md'
+- 推荐资源 :
+    - 文章 : 'resource/articles.md'
+    - 书籍 : 'resource/books.md'
 - hidden :
     - hidden : 'Partners/zengsf/zengsf.md' 
 theme: readthedocs
