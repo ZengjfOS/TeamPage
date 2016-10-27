@@ -14,9 +14,21 @@
 ```
     autorun.sh [server][build][pushweb][pushpro]
        1. server: run as local server;
-       2. build: build the mkdocs project to a static web site;
+       2. build: build the mkdocs project to a static web site and it will remove hidden nav items;
        3. pushweb: push the static web site to github.io;
        4. pushpro: push the local mkdocs project to github repository.
+```
+
+  * 目前由于[hidden.py](tools/hidden.py)只能隐藏[mkdocs.yml](mkdocs.yml)文件中pages字段下的hidden导航条目，所以需要隐藏的md文件，写法要符合这种规范，如果又不清除的地方，请参考项目的[mkdocs.yml](mkdocs.yml)写法:
+
+```
+    [省略内容...]
+    pages:
+    [省略内容...]
+    - hidden :
+        - hidden : 'Partners/zengsf/zengsf.md' 
+        [这里添加要隐藏的md文件]
+    [省略内容...]
 ```
 
 # 处理过程中遇到的最大问题
