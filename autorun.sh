@@ -11,7 +11,7 @@ getPid()
 }
 
 if [ $# -ne 1 ];then
-    echo "autorun.sh [server][build][pushweb][pushres]"
+    echo "autorun.sh [server][build][pushweb][pushpro]"
     exit -1
 fi
 
@@ -49,7 +49,7 @@ if [ $1 == "pushweb" ];then
     exit 0
 fi
 
-if [ $1 == "pushres" ];then
+if [ $1 == "pushpro" ];then
     git add .
     git rm $(git ls-files --deleted)
     git commit -m "update"
@@ -58,4 +58,4 @@ if [ $1 == "pushres" ];then
     exit 0
 fi
 
-echo "autorun.sh [server][build][pushweb][pushres]"
+echo "autorun.sh [server][build][pushweb][pushpro]"

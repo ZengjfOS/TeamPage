@@ -5,6 +5,20 @@
   * 每个成员只需要在docs/Partners/目录添加其自己的子目录，并以Markdown文档写自己的信息就可以了；
   * 除了作为一个团队成员信息入口以外，还可以提供一些其他的功能，这些可以后续考虑加入；
 
+# 使用方法
+
+  * [参考Mkdocs官方使用说明](http://www.mkdocs.org/)
+  * [安装mkdocs](http://www.mkdocs.org/#installation)
+  * 查看[autorun.sh](autorun.sh)使用，最好能读懂脚本代码运行流程，目前所有的操作流程都放在了这个脚本中：
+
+```
+    autorun.sh [server][build][pushweb][pushpro]
+       1. server: run as local server;
+       2. build: build the mkdocs project to a static web site;
+       3. pushweb: push the static web site to github.io;
+       4. pushpro: push the local mkdocs project to github repository.
+```
+
 # 处理过程中遇到的最大问题
 
 每个md文件都要mkdocs.yml文件中声明了才能在别的md文件中引用，不然会出现如下错误：
@@ -39,7 +53,7 @@
 
 如下是对应的UI导航栏，注意图片中的hidden导航条目是我们不希望看到的：
 
-![hidden](images/error.png)
+![nohidden](images/navnohidden.png)
 
 于是采用Python3写了一个html自动化处理文档[hidden.py](tools/hidden.py)，处理过程在[autorun.sh](autorun.sh)脚本中:
 
@@ -55,3 +69,7 @@
         exit 0
     fi
 ```
+
+如下图片中的导航是我们希望看到的：
+
+![hidden](images/navhidden.png)

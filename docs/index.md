@@ -36,7 +36,7 @@
 
 ---
 
-  * 本站采用[MKDocs](http://www.mkdocs.org/)来生成，Markdown语法可参考：[Markdown 语法说明 (简体中文版)](http://wowubuntu.com/markdown/)
+  * 本站采用[MkDocs](http://www.mkdocs.org/)来生成，Markdown语法可参考：[Markdown 语法说明 (简体中文版)](http://wowubuntu.com/markdown/)
   * 本站目标是作为信息入口，采用Markdwon文档开发，可考虑简历制作，请参考：[Markdown 简历模板](https://github.com/geekcompany/DeerResume)
   * 本站是存放在[Github](https://github.com/)上，所以如果对[Github](https://github.com/)使用有兴趣，可以参考：[Github全程指南-如何高效使用？](https://github.com/xirong/my-git/blob/master/how-to-use-github.md)
   * 如果对本站有任何建设性意见，可以到[TeamPage仓库](https://github.com/AplexOS/TeamPage)提出Issues，Thanks At First;
