@@ -1,4 +1,4 @@
-# [AplexOS Open Source Project](https://github.com/AplexOS)
+# [AplexOS](https://github.com/AplexOS) Home Page
 
 ---
 
@@ -10,7 +10,7 @@
 
 强烈推荐阅读[刘未鹏](https://www.zhihu.com/question/19616722)博客[《刘未鹏 | MIND HACKS》](http://mindhacks.cn/)，如果你时间不够充足，[《暗时间》](http://mindhacks.cn/2009/12/20/dark-time/)这篇文章依旧建议去路过一下，看了就知道会不会怀孕。
 
-[为什么你应该（从现在开始就）写博客](http://mindhacks.cn/2009/02/15/why-you-should-start-blogging-now/)，因为[书写是为了更好的思考](http://mindhacks.cn/2009/02/09/writing-is-better-thinking/)，博客一种记录方式，不一定要写很好的文章给别人看，得到赞赏，亦可是杂记，不一定是为了给别人看，放那里只是为了给日后的自己看。譬如记录自己遇到的问题，解决的问题方法、思路，下一次遇到了但早己忘记以前做过，一不小心Google到自己以前的博客记录，结果嘴里骂了句：艹。
+[为什么你应该（从现在开始就）写博客](http://mindhacks.cn/2009/02/15/why-you-should-start-blogging-now/)，因为[书写是为了更好的思考](http://mindhacks.cn/2009/02/09/writing-is-better-thinking/)，博客一种记录方式，不一定要写很好的文章给别人看，得到赞赏。亦可是杂记，放那里只是为了给日后的自己看。譬如记录自己遇到的问题，解决的问题方法、思路，下一次遇到了但早己忘记以前做过，一不小心Google到自己以前的博客记录，结果嘴里骂了句：艹。
 
 使用Github也不是为了要去做很大的项目，有很多的点赞等等原因，毕竟绝大多数的我们是普通人。我们使用的目标可以是：
 
