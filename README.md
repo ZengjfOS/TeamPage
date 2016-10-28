@@ -1,7 +1,7 @@
 # TeamPage
 
   * 主要目的是为了使Team成员有一个信息入口，这样每个人可以通过一个统一的域名访问到其他人的博客、Github账户等等相关信息；
-  * 网站以Markdown文档开发，经MKDocs处理为静态页面，通过github.io发布，域名为aplexos.com；
+  * 网站以Markdown文档开发，经MKDocs处理为静态页面，通过github.io发布，域名为[aplexos.com](http://aplexos.com/)；
   * 除了作为一个团队成员信息入口以外，还可以提供一些其他的功能，这些可以后续考虑加入；
 
 # 使用方法
@@ -9,6 +9,8 @@
   * [参考Mkdocs官方使用说明](http://www.mkdocs.org/)
   * [安装mkdocs](http://www.mkdocs.org/#installation)
     * sudo apt-get install python-pip python-dev build-essential 
+    * sudo pip install --upgrade pip 
+    * sudo pip install --upgrade virtualenv 
     * pip install mkdocs
     * mkdocs --version
   * 查看[autorun.sh](autorun.sh)使用，最好能读懂脚本代码运行流程，目前所有的操作流程都放在了这个脚本中：
