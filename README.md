@@ -11,8 +11,11 @@
     * sudo apt-get install python-pip python-dev build-essential 
     * sudo pip install --upgrade pip 
     * sudo pip install --upgrade virtualenv 
+    * sudo pip install pyinotify --upgrade
     * pip install mkdocs
-    * mkdocs --version
+  * Clone这个仓库到本地：
+        * cd <打算放置仓库路径>
+        * git clone 
   * 查看[autorun.sh](autorun.sh)使用，最好能读懂脚本代码运行流程，目前所有的操作流程都放在了这个脚本中：
 
 ```
