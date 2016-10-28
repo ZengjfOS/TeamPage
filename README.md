@@ -8,6 +8,9 @@
 
   * [参考Mkdocs官方使用说明](http://www.mkdocs.org/)
   * [安装mkdocs](http://www.mkdocs.org/#installation)
+    * sudo apt-get install python-pip python-dev build-essential 
+    * pip install mkdocs
+    * mkdocs --version
   * 查看[autorun.sh](autorun.sh)使用，最好能读懂脚本代码运行流程，目前所有的操作流程都放在了这个脚本中：
 
 ```
