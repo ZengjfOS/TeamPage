@@ -1,10 +1,10 @@
 # TeamPage
 
-  * 主要目的是为了使Team成员有一个信息入口，这样每个人可以通过一个统一的域名访问到其他人的博客、Github账户等等相关信息；
-  * 网站以Markdown文档开发，经MKDocs处理为静态页面，通过github.io发布，域名为[aplexos.com](http://aplexos.com/)；
-  * 除了作为一个团队成员信息入口以外，还可以提供一些其他的功能，这些可以后续考虑加入；
+  * 做为Team成员信息入口，可以通过[www.aplexos.com](http://aplexos.com/)统一的域名访问大家的博客、Github账户等等相关信息；
+  * 网站以Markdown文档开发，经MKDocs处理为静态页面，通过github.io发布；
+  * 除了作为一个Team成员信息入口以外，将来可能会考虑加入其他的部分；
 
-# 使用方法
+## Mkdocs使用方法、安装
 
   * [参考Mkdocs官方使用说明](http://www.mkdocs.org/)
   * [安装mkdocs](http://www.mkdocs.org/#installation)
@@ -12,21 +12,26 @@
     * sudo pip install --upgrade pip 
     * sudo pip install --upgrade virtualenv 
     * sudo pip install pyinotify --upgrade
-    * pip install mkdocs
+    * sudo pip install mkdocs
+
+## TeamPage 使用说明
   * Clone这个仓库到本地：
-        * cd <打算放置仓库路径>
-        * git clone 
-  * 查看[autorun.sh](autorun.sh)使用，最好能读懂脚本代码运行流程，目前所有的操作流程都放在了这个脚本中：
+    * cd <打算放置仓库路径>
+    * git clone git@github.com:AplexOS/TeamPage.git
+    * cd TeamPage
+  * 查看[autorun.sh](autorun.sh)使用，最好能读懂脚本代码运行流程，目前所有的操作流程都放在了这个脚本中，如下参数说明：
+    * server: run as local server;  
+      `./autorun.sh server`
+    * build: build the mkdocs project to a static web site and it will remove hidden nav items;  
+      `./autorun.sh build`
+    * pushweb: push the static web site to github.io;  
+      `./autorun.sh pushweb`
+    * pushpro: push the local mkdocs project to github repository.  
+      `./autorun.sh pushpro`
 
-```
-    autorun.sh [server][build][pushweb][pushpro]
-       1. server: run as local server;
-       2. build: build the mkdocs project to a static web site and it will remove hidden nav items;
-       3. pushweb: push the static web site to github.io;
-       4. pushpro: push the local mkdocs project to github repository.
-```
+## TeamPage md文件导航隐藏方法
 
-  * 目前由于[hidden.py](tools/hidden.py)只能隐藏[mkdocs.yml](mkdocs.yml)文件中pages字段下的hidden导航条目，所以需要隐藏的md文件，写法要符合这种规范，如果又不清楚的地方，请参考项目的[mkdocs.yml](mkdocs.yml)写法:
+目前由于[hidden.py](tools/hidden.py)只能隐藏[mkdocs.yml](mkdocs.yml)文件中pages字段下的hidden导航条目，所以需要隐藏的md文件，写法要符合这种规范，如果又不清楚的地方，请参考本项目的[mkdocs.yml](mkdocs.yml)写法:
 
 ```
     [省略内容...]
@@ -38,12 +43,49 @@
     [省略内容...]
 ```
 
-  * 添加成员，需要完成如下内容：
-    * 在docs/Partners/目录添加其自己的子目录，并以Markdown文档写自己的信息；
-    * 在docs/index.md中添加引用；
-    * 在mkdocs.yml声明md文件，如果不需要在导航栏中显示，请添加在hidden字段内。
+## TeamPage 添加成员
+  * 在docs/Partners/目录添加其自己的子目录，并以Markdown文档写自己的信息；
 
-# 项目搭建中遇到的问题
+```
+    .
+    └── docs
+      └── Partners
+          ├── chenfl
+          │   └── chenfl.md
+          ├── chengmz
+          │   └── chengmz.md
+          ├── chenyq
+          │   └── chenyq.md
+          ├── liutao
+          │   └── liutao.md
+          ├── qinzd
+          │   └── qinzd.md
+          ├── zengjf
+          │   └── zengjf.md
+          └── zengsf
+              └── zengsf.md
+```
+
+  * 在docs/index.md中添加引用：
+
+```
+    * [覃左栋](Partners/qinzd/qinzd.md)
+    * [刘涛](Partners/liutao/liutao.md)
+    * [陈颖奇](Partners/chenyq/chenyq.md)
+    * [陈富林](Partners/chenfl/chenfl.md)
+    * [程梦真](Partners/chengmz/chengmz.md)
+    * [曾剑锋](Partners/zengjf/zengjf.md)
+```
+
+  * 在mkdocs.yml声明md文件，如果不需要在导航栏中显示，请添加在hidden字段下添加相关md文件：
+
+```
+    - hidden :
+        - hidden : 'Partners/zengsf/zengsf.md' 
+        <以[- hidden : ] 开头、对齐加上md文件相对路径>
+```
+
+## 项目搭建中遇到的最难的难题
 
 每个md文件都要mkdocs.yml文件中声明了才能在别的md文件中引用，不然会出现如下错误：
 
