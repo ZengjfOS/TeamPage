@@ -1,5 +1,5 @@
-site_favicon: os.ico
-site_name: AplexOS
+site_favicon: images/os.ico
+site_name: AplexOS Team Page
 site_author: zengjf
 pages:
 - 主页 : 'index.md'

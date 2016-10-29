@@ -28,6 +28,7 @@
       `./autorun.sh pushweb`
     * pushpro: push the local mkdocs project to github repository.  
       `./autorun.sh pushpro`
+  * 使用autorun.sh执行pushweb、pushpro两个命令时，请修改autorun.sh对应仓库，否则默认提交到本仓库是没有权限的，因为没有允许的你的SSH Key。
 
 ## TeamPage md文件导航隐藏方法
 
@@ -137,3 +138,7 @@
 如下图片中的导航栏是我们希望看到的，也是经过脚本处理后的最终效果：
 
 ![hidden](images/navhidden.png)
+
+## Author
+
+[曾剑锋(zengjf)](http://www.cnblogs.com/zengjfgit/)

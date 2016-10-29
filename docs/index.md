@@ -1,20 +1,18 @@
-# [AplexOS](https://github.com/AplexOS) Home Page
+![TeamPage](images/TeamPage.jpg)
 
----
+*团队精神到底是什么啊？互相帮助、互相袒护就算是么？有人这么认为吧，我认为那根本只是唬人。应该是每个人抱着必死的决心做自己的事情，我做好自己的部分了，接下来轮到你了，做不好的话我就揍扁你！要有这种精神才算是起码的团队精神吧。 —— 《海贼王》（Roronoa Zoro）*
 
-> 团队精神到底是什么啊？互相帮助、互相袒护就算是么？有人这么认为吧，我认为那根本只是唬人。应该是每个人抱着必死的决心做自己的事情，我做好自己的部分了，接下来轮到你了，做不好的话我就揍扁你！要有这种精神才算是起码的团队精神吧。 —— 《海贼王》（Roronoa Zoro）
-
-本站首要目标是给团队人员方便的获取到其他成员的**博客地址**、**Github地址**，通过下面的[Partners 详细列表](#partners)即可获取相关信息，左侧导航栏**Partners**是同样的效果。
+这是大家互相访问**博客地址**、**Github地址**的入口，通过下面的[Partners 详细列表](#partners)即可获取相关信息，左侧导航栏**Partners**是同等效果。
 
 # 博客的重要性
 
 ---
 
-[为什么你应该（从现在开始就）写博客](http://mindhacks.cn/2009/02/15/why-you-should-start-blogging-now/)，因为[书写是为了更好的思考](http://mindhacks.cn/2009/02/09/writing-is-better-thinking/)，博客一种记录方式，不一定要写很好的文章给别人看，得到赞赏。亦可是杂记（有人要求应该追求质量、不要装逼、要有感想、要分享经验、不是流水帐等等，但千万别忘了博客是自己写的，写什么不是由别人来定标准，自己觉得有必要写就写，觉得该怎么写就怎么写），写出来除了会被别人看之外，也是给日后的自己看。譬如记录自己遇到的问题，解决的问题方法、思路，下一次遇到了但早己忘记以前做过，一不小心Google到自己以前的博客记录，结果嘴里骂了句：艹。
+[为什么你应该（从现在开始就）写博客](http://mindhacks.cn/2009/02/15/why-you-should-start-blogging-now/)，因为[书写是为了更好的思考](http://mindhacks.cn/2009/02/09/writing-is-better-thinking/)，博客一种记录方式，不一定要写很好的文章给别人看，得到赞赏。亦可是杂记（有人要求应该追求质量、不要装逼、要有感想、要分享经验、不是流水帐等等，但千万别忘了博客是自己写的，写什么不是由别人来定标准，自己觉得有必要写就写，觉得该怎么写就怎么写），写出来除了会被别人看之外，也是给日后的自己看。譬如记录自己遇到的问题，解决的问题方法、思路，下一次遇到了但早己忘记以前做过，一不小心Google到自己以前的博客记录，结果随口就喷出一个：艹。
 
 强烈推荐阅读[刘未鹏](https://www.zhihu.com/question/19616722)博客[《刘未鹏 | MIND HACKS》](http://mindhacks.cn/)，如果你时间不够充足，[《暗时间》](http://mindhacks.cn/2009/12/20/dark-time/)这篇文章依旧建议去路过一下，看了就知道会不会怀孕。
 
-# Github的重要性
+# [Github](https://github.com/)的重要性
 
 ---
 
@@ -26,6 +24,8 @@
   * 因为我们做的是类似的事情，互相参考、借鉴是常有的事，Github可以降低这种沟通上的成本以及获取资源、信息的便利性。
 
 将来如果有朋友需要你做过的相关的内容的东西作为参考，直接给他Github仓库地址就可以了，这是常发生的事。当然Github不一定只是放源代码，还可以写博客，做简历，做网站等等，Github是一个公开的平台，怎么用那是每个人自己的事情。
+
+譬如，你现在正在浏览的网页就是[Github](https://github.com/)上[AplexOS](https://github.com/AplexOS/)账户下[AplexOS.github.io](https://github.com/AplexOS/AplexOS.github.io)仓库中[index.html](https://github.com/AplexOS/AplexOS.github.io/blob/master/index.html)的内容，目的仅仅是博客地址、Github地址信息入口。
 
 # Partners 详细列表（随机排序）
 
@@ -61,4 +61,4 @@
   * 本站目标是作为信息入口，采用Markdwon文档开发，可考虑简历制作，请参考：[Markdown 简历模板](https://github.com/geekcompany/DeerResume)
   * 本站是存放在[Github](https://github.com/)上，所以如果对[Github](https://github.com/)使用有兴趣，可以参考：[Github全程指南-如何高效使用？](https://github.com/xirong/my-git/blob/master/how-to-use-github.md)
   * 如果对本站有任何建设性意见，可以到[TeamPage仓库](https://github.com/AplexOS/TeamPage)提出**Issues**，Thanks At First;
-  * 本站所有内容最终解释权归[AplexOS](http://aplexos.com/)团队所有。
+  * 本站所有内容最终解释权归**AplexOS**所有。
