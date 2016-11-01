@@ -13,6 +13,7 @@ pages:
 - 推荐资源 :
     - 文章 : 'resource/articles.md'
     - 书籍 : 'resource/books.md'
+    - 视频 : 'resource/videos.md'
 - hidden :
     - hidden : 'Partners/zengsf/zengsf.md' 
 theme: readthedocs
