@@ -15,6 +15,7 @@
     * sudo pip install mkdocs
 
 ## TeamPage 使用说明
+
   * Clone这个仓库到本地：
     * cd <打算放置仓库路径>
     * git clone git@github.com:AplexOS/TeamPage.git
@@ -45,6 +46,7 @@
 ```
 
 ## TeamPage 添加成员
+
   * 在docs/Partners/目录添加其自己的子目录，并以Markdown文档写自己的信息；
 
 ```
@@ -86,7 +88,7 @@
         <以[- hidden : ] 开头、对齐加上md文件相对路径>
 ```
 
-## 项目搭建中遇到的最难的难题
+## 项目搭建中遇到的难题
 
 每个md文件都要mkdocs.yml文件中声明了才能在别的md文件中引用，不然会出现如下错误：
 

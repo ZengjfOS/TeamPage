@@ -1,14 +1,26 @@
-cover_index: /images/chengmz.png
-title: chengmz
-subtitle: chengmz
-date: 2016/6/9 10:46:25
+# 联系方式
+
 ---
 
-|        |        |
-|:-------:|:-------|
-| Name:  | 程梦真 |
-| Blog:  | [http://blog.csdn.net/u011168565](http://blog.csdn.net/u011168565)
-| Github: | [https://github.com/chengcnaplex](https://github.com/chengcnaplex) |
-| E-mail: | chengcnateam@gmail.com |
+  * E-mail: chengcnateam@gmail.com
 
+# 个人信息
+
+---
+
+  * 程梦真
+  * 技术博客: [http://blog.csdn.net/u011168565](http://blog.csdn.net/u011168565)
+  * Github:  [https://github.com/chengcnaplex](https://github.com/chengcnaplex) 
+
+# 个人技能
+
+---
+
+
+
+# 致谢
+
+---
+
+感谢您访问。
 

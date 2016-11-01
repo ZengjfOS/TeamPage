@@ -1,13 +1,26 @@
-cover_index: /images/cyq.png
-title: chyq
-subtitle: chyq
-date: 2016/6/9 10:46:25
+# 联系方式
+
 ---
 
-|        |        |
-|:-------:|:-------|
-| Name:  | 陈颖奇 |
-| Blog:  |  [http://www.cnblogs.com/ChYQ/](http://www.cnblogs.com/ChYQ/)   |
-| E-mail: | ch_y_q@outlook.com |
+  * E-mail: ch_y_q@outlook.com 
 
+# 个人信息
+
+---
+
+  * 陈颖奇
+  * 技术博客: [http://www.cnblogs.com/zengjfgit/](http://www.cnblogs.com/zengjfgit/) 
+  * Github:  [https://github.com/ChYQ](https://github.com/ChYQ)
+
+# 个人技能
+
+---
+
+
+
+# 致谢
+
+---
+
+感谢您访问。
 

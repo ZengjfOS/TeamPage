@@ -1,14 +1,26 @@
-cover_index: /images/liutao.png
-title: liutao
-subtitle: liutao
-date: 2016/6/9 10:46:25
+# 联系方式
+
 ---
 
-|        |        |
-|:-------:|:-------|
-| Name:  | 刘涛 |
-| Blog:  |  [http://www.cnblogs.com/helloworldtoyou/](http://www.cnblogs.com/helloworldtoyou/)   |
-| Github  |  [http://github.com/TonySudo](http://github.com/TonySudo) |
-| E-mail: | tony.liu.366@gmail.com |
+  * E-mail: tony.liu.366@gmail.com 
 
+# 个人信息
+
+---
+
+  * 刘涛 
+  * 技术博客: [http://www.cnblogs.com/helloworldtoyou/](http://www.cnblogs.com/helloworldtoyou/)  
+  * Github:  [http://github.com/TonySudo](http://github.com/TonySudo)
+
+# 个人技能
+
+---
+
+
+
+# 致谢
+
+---
+
+感谢您访问。
 
