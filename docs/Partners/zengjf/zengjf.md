@@ -13,15 +13,4 @@
   * 技术博客: [http://www.cnblogs.com/zengjfgit/](http://www.cnblogs.com/zengjfgit/) 
   * Github:  [http://github.com/AplexOS](http://github.com/AplexOS)
 
-# 个人技能
-
 ---
-
-都没到精通。  :)
-
-# 致谢
-
----
-
-感谢您访问。
-

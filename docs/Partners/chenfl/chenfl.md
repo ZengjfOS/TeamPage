@@ -12,15 +12,4 @@
   * 技术博客: [http://www.cnblogs.com/chenfulin5](http://www.cnblogs.com/chenfulin5)   
   * Github:  [http://github.com/chenfulin5](http://github.com/chenfulin5) 
 
-# 个人技能
-
 ---
-
-
-
-# 致谢
-
----
-
-感谢您访问
-

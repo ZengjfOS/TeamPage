@@ -12,15 +12,4 @@
   * 技术博客: [http://blog.csdn.net/liuying45](http://blog.csdn.net/liuying45)
   * Github:  [http://github.com/liuying45](http://github.com/liuying45)
 
-# 个人技能
-
 ---
-
-
-
-# 致谢
-
----
-
-感谢您访问。
-

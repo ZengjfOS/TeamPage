@@ -12,15 +12,4 @@
   * 技术博客: [http://www.cnblogs.com/zengjfgit/](http://www.cnblogs.com/zengjfgit/) 
   * Github:  [https://github.com/ChYQ](https://github.com/ChYQ)
 
-# 个人技能
-
 ---
-
-
-
-# 致谢
-
----
-
-感谢您访问。
-

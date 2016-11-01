@@ -12,15 +12,4 @@
   * 技术博客: [http://blog.csdn.net/u011168565](http://blog.csdn.net/u011168565)
   * Github:  [https://github.com/chengcnaplex](https://github.com/chengcnaplex) 
 
-# 个人技能
-
 ---
-
-
-
-# 致谢
-
----
-
-感谢您访问。
-
