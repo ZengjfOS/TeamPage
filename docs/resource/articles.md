@@ -2,10 +2,13 @@
 
 对文章的评语纯属个人观点，如有意见，可以发送邮件到：aplexos@163.com，以下以时间为倒序排序的文章，序号越小，越在下面，越值得看。 :)
 
-* **科学上网**  
-这个没有指定文章，但最好要会，其他的术语是VPN，可以购买，也可以通过购买VPS来自己搭建OpenVPN，当然还有其他的方式。
+* **[Google analitics](https://www.google.com/analytics/)**  
+网站被访问数据统计、分析。只要插入一小段代码就能知道谁访问了你的网站，什么时候访问的，看了什么内容，看了多久，是哪个国家的，如果在国内，可以知道他目前所在市区，等等信息都可获取出来。
 
-* **[如何用好 Google 等搜索引擎？](http://www.zhihu.com/question/20161362)  
+* **科学上网**  
+这个没有指定文章，但最好要会，术语是VPN，可以购买，也可以通过购买VPS来自己搭建OpenVPN，当然还有其他的方式。
+
+* **[如何用好 Google 等搜索引擎？](http://www.zhihu.com/question/20161362)**  
 使用好**Google**，相对来说多了一门技能，也许你会说百度也不错，我只能说百度会死人，你信不信，反正我是信了，这不是为了要黑他，我们讲真。
 
 * **[Markdown 语法说明 (简体中文版)](http://wowubuntu.com/markdown/)**  
@@ -23,4 +26,7 @@ Vim，这个是神器，到目前为止，如果一个编辑器不支持Vim编�
 * **[刘未鹏 | MIND HACKS](http://mindhacks.cn/)**  
 到目前位置，只有这位博主的博客文章是全部推荐，一篇都不想落下，全部推荐，没有之一，感觉能开启上帝视角，尤其是里面的《暗时间》这篇文章，简直了。
 
+<script type="text/javascript"src="../../js/analytics.js"></script>
+<div style="display: none;"><script language='javascript' type='text/javascript' src='http://js.users.51.la/19023250.js'></script></div>
 
+---

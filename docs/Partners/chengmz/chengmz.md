@@ -12,4 +12,7 @@
   * 技术博客: [http://blog.csdn.net/u011168565](http://blog.csdn.net/u011168565)
   * Github:  [https://github.com/chengcnaplex](https://github.com/chengcnaplex) 
 
+<script type="text/javascript"src="../../../js/analytics.js"></script>
+<div style="display: none;"><script language='javascript' type='text/javascript' src='http://js.users.51.la/19023250.js'></script></div>
+
 ---
