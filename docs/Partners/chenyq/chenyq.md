@@ -9,7 +9,7 @@
 ---
 
   * 陈颖奇
-  * 技术博客: [http://www.cnblogs.com/zengjfgit/](http://www.cnblogs.com/zengjfgit/) 
+  * 技术博客: [http://www.cnblogs.com/ChYQ/](http://www.cnblogs.com/ChYQ/) 
   * Github:  [https://github.com/ChYQ](https://github.com/ChYQ)
 
 <script type="text/javascript"src="../../../js/analytics.js"></script>
