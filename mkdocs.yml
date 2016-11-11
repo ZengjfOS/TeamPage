@@ -1,7 +1,7 @@
-site_favicon: images/os.ico
+site_favicon: /images/os.ico
 site_name: AplexOS Team Page
 site_author: zengjf
-site_logo: images/os.png
+site_logo: /images/os.png
 pages:
 - 主页 : 'index.md'
 - Partners（随机排序）:

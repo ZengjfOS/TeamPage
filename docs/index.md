@@ -44,7 +44,7 @@
 | [刘涛](Partners/liutao/liutao.md)      |  [tonylt.com](http://tonylt.com)|
 | [陈颖奇](Partners/chenyq/chenyq.md)    |  暂无 |
 | [陈富林](Partners/chenfl/chenfl.md)    |  暂无 |
-| [程梦真](Partners/chengmz/chengmz.md)  |  [chengmengzhen.com](http://chengmengzhen.com)|
+| [程梦真](Partners/chengmz/chengmz.md)  |  [www.chengmengzhen.com](http://www.chengmengzhen.com)|
 | [曾剑锋](Partners/zengjf/zengjf.md)    |  [zorozeng.com](http://zorozeng.com)、[aplexos.com](http://aplexos.com)|
 
 # 推荐资源
