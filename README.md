@@ -166,6 +166,8 @@
   * 图片大小如下，注意内容大小是要小于这个尺寸的：
     * height: 100px;
     * width: 295px;
+  * 效果如图：  
+    ![addlogo.png](images/addlogo.png)
 
 ## Author
 
