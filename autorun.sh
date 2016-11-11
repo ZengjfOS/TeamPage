@@ -22,14 +22,16 @@ if [ $1 == "server" ];then
         echo "Have kill process $pid"
     fi
 
-    mkdocs serve --dev-addr=$ip:$port --strict &
+    # mkdocs serve --dev-addr=$ip:$port --strict &
+    mkdocs serve --dev-addr=$ip:$port &
     echo "mkdocs server has start."
 
     exit 0
 fi
 
 if [ $1 == "build" ];then
-    mkdocs build --strict 
+    # mkdocs build --strict 
+    mkdocs build 
     for partner in `find * -name *.html`
     do 
         echo $partner

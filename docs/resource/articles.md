@@ -29,6 +29,9 @@
 * **[简明 Vim 练级攻略](http://coolshell.cn/articles/5426.html)**  
 Vim，这个是神器，到目前为止，如果一个编辑器不支持Vim编辑模式，除非没办法，否则基本上不会使用，没学过Emacs，但至今这是用过的最好的文本编辑器，没有之一，无论是在Eclipse，还是在Visual Studio，亦或是Android Studio，或则sublime Text中，都是使用Vim Mode进行文本编辑，命令行下就更别提了。
 
+* **[提问的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)**  
+提问是一门技术，如果你在网络上随便打几个字就能找到答案，那么这种问题真没必要去问别人，自己动手找一下就行了，当然百度还是不建议用，一不小心你就挂了，聪明的问问题，同时聪明的获取你想要的信息，这很重要。
+
 * **[刘未鹏 | MIND HACKS](http://mindhacks.cn/)**  
 到目前位置，只有这位博主的博客文章是全部推荐，一篇都不想落下，全部推荐，没有之一，感觉能开启上帝视角，尤其是里面的《暗时间》这篇文章，简直了。
 

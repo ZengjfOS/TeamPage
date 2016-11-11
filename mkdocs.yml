@@ -4,6 +4,7 @@ site_author: zengjf
 pages:
 - 主页 : 'index.md'
 - Partners（随机排序）:
+    - 黄宝林 : 'Partners/huangbl/huangbl.md'
     - 覃左栋 : 'Partners/qinzd/qinzd.md'
     - 刘涛 : 'Partners/liutao/liutao.md'
     - 陈颖奇 : 'Partners/chenyq/chenyq.md'
@@ -12,10 +13,8 @@ pages:
     - 曾剑锋 : 'Partners/zengjf/zengjf.md'
 - 推荐资源 :
     - 文章 : 'resource/articles.md'
-    - 书籍 : 'resource/books.md'
     - 视频 : 'resource/videos.md'
 - hidden :
     - hidden : 'Partners/zengsf/zengsf.md' 
 theme: readthedocs
 copyright: 'Copyright © 2016 AplexOS'
-

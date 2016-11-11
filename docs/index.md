@@ -6,6 +6,8 @@
 
 [AplexOS Github账户](https://github.com/AplexOS)目前是倾向于**Demo**级别的项目，包括对代码进行解读、验证、测试、学习的**Demo**，主要是用于收集、共享学习作品。当然，随着时间的积累，以后会开始倾向于更进一步的开发，以及不同方向的发展。
 
+如果你有一些疑问希望他人能够解答，请注意**[《提问的智慧》](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)**中的一些描述，因为他人没有义务来答复你，请深刻认识这一点以避免不必要的麻烦。
+
 # 博客的重要性
 
 ---
@@ -35,6 +37,7 @@
 
 加入[Partners 详细列表](#partners)请移步[TeamPage项目](https://github.com/AplexOS/TeamPage)参考**README**说明，Fork、修改、并提交**Pull Requests**，将会尽快更新，如有任何问题，请在[TeamPage项目](https://github.com/AplexOS/TeamPage)提交**Issues**，将会尽快解答。
 
+  * [黄宝林](Partners/huangbl/huangbl.md)
   * [覃左栋](Partners/qinzd/qinzd.md)
   * [刘涛](Partners/liutao/liutao.md)
   * [陈颖奇](Partners/chenyq/chenyq.md)
@@ -53,7 +56,6 @@
 每个人关注的文章、书籍是不一样的，积累的知识量、侧重点也不尽相同，每个人认为的好文章、书籍也不同，都推荐出来出来放这里，就成了一个涵盖各方面的仓库了，至于谁会去看、怎么看、看到什么程度，那不是推荐文章、书籍的人要做的事。
 
   * [文章 —— 鸡汤虽好，喝多了也容易醉](resource/articles.md)
-  * [书籍 —— 看得再厚毕竟只是一堆纸](resource/books.md)
   * [视频 —— 电影是花钱拍出来，由看电影的人支付](resource/videos.md)
 
 # AplexOS 站点信息
