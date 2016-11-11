@@ -37,13 +37,15 @@
 
 加入[Partners 详细列表](#partners)请移步[TeamPage项目](https://github.com/AplexOS/TeamPage)参考**README**说明，Fork、修改、并提交**Pull Requests**，将会尽快更新，如有任何问题，请在[TeamPage项目](https://github.com/AplexOS/TeamPage)提交**Issues**，将会尽快解答。
 
-  * [黄宝林](Partners/huangbl/huangbl.md)
-  * [覃左栋](Partners/qinzd/qinzd.md)
-  * [刘涛](Partners/liutao/liutao.md)
-  * [陈颖奇](Partners/chenyq/chenyq.md)
-  * [陈富林](Partners/chenfl/chenfl.md)
-  * [程梦真](Partners/chengmz/chengmz.md)
-  * [曾剑锋](Partners/zengjf/zengjf.md)
+|  姓名                                  |   维护站点    |
+|:--------------------------------------:|:----------:|
+| [黄宝林](Partners/huangbl/huangbl.md)  |  暂无 |
+| [覃左栋](Partners/qinzd/qinzd.md)      |  暂无 |
+| [刘涛](Partners/liutao/liutao.md)      |  [tonylt.com](http://tonylt.com)|
+| [陈颖奇](Partners/chenyq/chenyq.md)    |  暂无 |
+| [陈富林](Partners/chenfl/chenfl.md)    |  暂无 |
+| [程梦真](Partners/chengmz/chengmz.md)  |  [chengmengzhen.com](http://chengmengzhen.com)|
+| [曾剑锋](Partners/zengjf/zengjf.md)    |  [zorozeng.com](http://zorozeng.com)、[aplexos.com](http://aplexos.com)|
 
 # 推荐资源
 

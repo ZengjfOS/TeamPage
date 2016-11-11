@@ -1,6 +1,6 @@
 # TeamPage
 
-  * 做为Team成员信息入口，可以通过[www.aplexos.com](http://aplexos.com/)统一的域名访问大家的博客、Github账户等等相关信息；
+  * 做为Team成员信息入口，可以通过[aplexos.com](http://aplexos.com/)统一的域名访问大家的博客、Github账户等等相关信息；
   * 网站以Markdown文档开发，经MKDocs处理为静态页面，通过github.io发布；
   * 除了作为一个Team成员信息入口以外，将来可能会考虑加入其他的部分；
 
@@ -140,6 +140,32 @@
 如下图片中的导航栏是我们希望看到的，也是经过脚本处理后的最终效果：
 
 ![hidden](images/navhidden.png)
+
+## readthedocs主题添加站点Logo
+  * 修改`/usr/local/lib/python3.4/dist-packages/mkdocs/themes/readthedocs/css/theme.css`
+```css
+    .wy-side-nav-search img{display:block;height:100px;width:295px;margin:auto auto 0.809em auto;background-color:#2980B9;padding:5px;border-radius:100%}
+```
+  * 修改`/usr/local/lib/python3.4/dist-packages/mkdocs/themes/readthedocs/base.html`
+```html
+    <div class="wy-side-nav-search">
+    {%- block site_name %}
+    <a href="{{ nav.homepage.url }}" class="icon icon-home"> {{ config.site_name }}
+    </a>
+    {%- endblock %}
+    <img src="{{ config.site_logo }}"/>
+    {%- block search_button %}
+    {% include "searchbox.html" %}
+    {%- endblock %}
+    </div>
+```
+  * 在mkdocs.yml中添加logo设置
+```
+    site_logo: images/os.png
+```
+  * 图片大小如下，注意内容大小是要小于这个尺寸的：
+    * height: 100px;
+    * width: 295px;
 
 ## Author
 
