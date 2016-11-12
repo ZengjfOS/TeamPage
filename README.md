@@ -144,7 +144,7 @@
 ## readthedocs主题添加站点Logo
   * 修改`/usr/local/lib/python3.4/dist-packages/mkdocs/themes/readthedocs/css/theme.css`
 ```css
-    .wy-side-nav-search img{display:block;height:100px;width:295px;margin:auto auto 0.809em auto;background-color:#2980B9;padding:5px;border-radius:100%}
+    .wy-side-nav-search img{display:block;height:100px;width:295px;margin:auto auto 0.809em auto;background-color:#2980B9;padding:5px;border-radius:0%}
 ```
   * 修改`/usr/local/lib/python3.4/dist-packages/mkdocs/themes/readthedocs/base.html`
 ```html
@@ -163,7 +163,7 @@
 ```
     site_logo: images/os.png
 ```
-  * 图片大小如下，注意内容大小是要小于这个尺寸的：
+  * 图片大小如下：
     * height: 100px;
     * width: 295px;
   * 效果如图：  
