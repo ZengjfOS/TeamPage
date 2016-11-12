@@ -168,6 +168,7 @@
     * width: 295px;
   * 效果如图：  
     ![addlogo.png](images/addlogo.png)
+  * 修改过后的主题：[readthedocs](https://github.com/AplexOS/readthedocs)
 
 ## Author
 
