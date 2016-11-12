@@ -142,11 +142,9 @@
 ![hidden](images/navhidden.png)
 
 ## readthedocs主题添加站点Logo
-  * 修改`/usr/local/lib/python3.4/dist-packages/mkdocs/themes/readthedocs/css/theme.css`
-```css
-    .wy-side-nav-search img{display:block;height:100px;width:295px;margin:auto auto 0.809em auto;background-color:#2980B9;padding:5px;border-radius:0%}
-```
-  * 修改`/usr/local/lib/python3.4/dist-packages/mkdocs/themes/readthedocs/base.html`
+  * 修改`/usr/local/lib/python3.4/dist-packages/mkdocs/themes/readthedocs/css/theme.css`文件图片相关的CSS：`.wy-side-nav-search img{display:block;height:45px;width:45px;margin:auto auto 0.809em auto;background-color:#2980B9;padding:5px;border-radius:100%}`为`.wy-side-nav-search img{display:block;height:100px;width:295px;margin:auto auto 0.809em auto;background-color:#2980B9;padding:5px;border-radius:/*100%*/0%`
+  * 如果右侧内容显示部分需要自适应宽度，可以修改上面的文件 `.wy-nav-content{padding:1.618em 3.236em;height:100%;max-width: 800px;margin:auto}`为`.wy-nav-content{padding:1.618em 3.236em;height:100%;argin:auto}`
+  * 修改`/usr/local/lib/python3.4/dist-packages/mkdocs/themes/readthedocs/base.html`，添加img标签添加图片：
 ```html
     <div class="wy-side-nav-search">
     {%- block site_name %}

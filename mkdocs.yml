@@ -26,4 +26,4 @@ repo_url: https://github.com/AplexOS/TeamPage
 
 # default readthedocs theme position in Ubuntu system: /usr/local/lib/python3.4/dist-packages/mkdocs/themes/readthedocs
 # here is modified theme for me
-# theme_dir: ../readthedocs
+theme_dir: ../readthedocs
