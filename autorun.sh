@@ -4,6 +4,8 @@
 # ip=183.39.159.19
 ip=0.0.0.0
 port=9000
+sourcerepo=git@github.com:AplexOS/TeamPage.git
+githubio=git@github.com:AplexOS/AplexOS.github.io.git
 
 getPid()
 {
@@ -46,7 +48,7 @@ if [ $1 == "pushweb" ];then
     git add .
     git rm $(git ls-files --deleted)
     git commit -m "update"
-    git push git@github.com:AplexOS/AplexOS.github.io.git master
+    git push $githubio master
 
     exit 0
 fi
@@ -55,7 +57,7 @@ if [ $1 == "pushpro" ];then
     git add .
     git rm $(git ls-files --deleted)
     git commit -m "update"
-    git push git@github.com:AplexOS/TeamPage.git master
+    git push $sourcerepo master
 
     exit 0
 fi
