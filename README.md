@@ -1,6 +1,6 @@
 # TeamPage
 
-  * 做为Team成员信息入口，可以通过[aplexos.com](http://aplexos.com/)统一的域名访问大家的博客、Github账户等等相关信息；
+  * 做为Team成员信息入口，可以通过统一的域名访问大家的博客、Github账户等等相关信息；
   * 网站以Markdown文档开发，经MKDocs处理为静态页面，通过github.io发布；
   * 除了作为一个Team成员信息入口以外，将来可能会考虑加入其他的部分；
 
@@ -18,7 +18,7 @@
 
   * Clone这个仓库到本地：
     * cd <打算放置仓库路径>
-    * git clone git@github.com:AplexOS/TeamPage.git
+    * git clone git@github.com:ZengjfOS/TeamPage.git
     * cd TeamPage
   * 查看[autorun.sh](autorun.sh)使用，最好能读懂脚本代码运行流程，目前所有的操作流程都放在了这个脚本中，如下参数说明：
     * server: run as local server;  
@@ -98,7 +98,7 @@
 
 ```
     site_favicon: os.ico
-    site_name: AplexOS
+    site_name: ZengjfOS
     site_author: zengjf
     pages:
     - 主页 : 'index.md'
@@ -115,7 +115,7 @@
     - hidden :
         - hidden : 'Partners/zengsf/zengsf.md' 
     theme: readthedocs
-    copyright: 'Copyright © 2016 AplexOS'
+    copyright: 'Copyright © 2016 ZengjfOS'
 ```
 
 如下是对应的导航栏，注意图片中的hidden相关的导航条目是我们不希望看到的：
@@ -166,7 +166,7 @@
     * width: 295px;
   * 效果如图：  
     ![addlogo.png](images/addlogo.png)
-  * 修改过后的主题：[readthedocs](https://github.com/AplexOS/readthedocs)
+  * 修改过后的主题：[readthedocs](https://github.com/ZengjfOS/readthedocs)
 
 ## Author
 

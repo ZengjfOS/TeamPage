@@ -4,8 +4,8 @@
 # ip=183.39.159.19
 ip=0.0.0.0
 port=9000
-sourcerepo=git@github.com:AplexOS/TeamPage.git
-githubio=git@github.com:AplexOS/AplexOS.github.io.git
+sourcerepo=git@github.com:ZengjfOS/TeamPage.git
+githubio=git@github.com:ZengjfOS/ZengjfOS.github.io.git
 
 getPid()
 {

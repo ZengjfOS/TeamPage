@@ -1,7 +1,7 @@
 site_favicon: images/os.ico
-site_name: AplexOS Team Page
+site_name: ZengjfOS
 site_author: zengjf
-site_logo: /images/aplexos.png
+site_logo: /images/ZengjfOS.png
 pages:
 - 主页 : 'index.md'
 - Partners（随机排序）:
@@ -12,17 +12,14 @@ pages:
     - 陈富林 : 'Partners/chenfl/chenfl.md'
     - 程梦真 : 'Partners/chengmz/chengmz.md'
     - 曾剑锋 : 'Partners/zengjf/zengjf.md'
-- 推荐资源 :
-    - 文章 : 'resource/articles.md'
-    - 视频 : 'resource/videos.md'
 - hidden :
     - hidden : 'Partners/zengsf/zengsf.md' 
 theme: readthedocs
-copyright: 'Copyright © 2016 AplexOS'
+copyright: 'Copyright © 2016 ZengjfOS'
 
 # 添加GitHub直接的链接，这样如果有错，可以直接修改，不用做很多跳转工作
 repo_name: GitHub
-repo_url: https://github.com/AplexOS/TeamPage
+repo_url: https://github.com/ZengjfOS/TeamPage
 
 # default readthedocs theme position in Ubuntu system: /usr/local/lib/python3.4/dist-packages/mkdocs/themes/readthedocs
 # here is modified theme for me
